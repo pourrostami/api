@@ -45,7 +45,7 @@ namespace API.Controllers.User
         }
 
         [HttpPost("[action]")]
-        //hi
+        //sobhanallah
         public async Task<IActionResult> Activated(CheckActiveCodeViewModelDto checkAC)
         {
             ProfileViewModelDto profileViewModel =await _userService.Activated(checkAC);
